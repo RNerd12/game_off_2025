@@ -29,8 +29,6 @@ tile_size = Vector2i(32, 32)
 physics_layer_0/collision_layer = 1
 sources/2 = SubResource("TileSetAtlasSource_47enk")
 
-[node name="testTileMap" type="Node2D"]
-
-[node name="TileMapLayer" type="TileMapLayer" parent="."]
+[node name="TestTileMap" type="TileMapLayer"]
 z_index = 5
 tile_set = SubResource("TileSet_jx7lj")
